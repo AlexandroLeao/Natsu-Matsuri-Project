@@ -1,4 +1,4 @@
-#Natsu Matsuri Project
+# Natsu Matsuri Project
 
 The Natsu Matsuri Project is a React-based application designed to serve as a finance manager for sales made during the Natsu Matsuri festival. The application allows users to record information about products sold, change provided, value, quantity, and whether it is an income or expense.
 
