@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+#Natsu Matsuri Project
+
+The Natsu Matsuri Project is a React-based application designed to serve as a finance manager for sales made during the Natsu Matsuri festival. The application allows users to record information about products sold, change provided, value, quantity, and whether it is an income or expense.
+
+Upon launching the application, users are presented with the option to select products available at the festival from a predefined list. They can enter the selling price of the product, quantity sold, and indicate whether it is an income or expense. Incomes can be used to record payments received from suppliers or sponsors, while expenses can be used to track festival-related costs such as production expenses, space rental, and more.
+
+The Natsu Matsuri Project offers an intuitive and user-friendly interface, allowing users to add, edit, and delete sales items. It also provides an updated financial summary based on the recorded transactions. The application allows for the export of financial reports, facilitating financial control and accountability.
+
+With this finance manager, Natsu Matsuri festival organizers can efficiently monitor financial transactions during the event, aiding in decision-making and cash flow management.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
