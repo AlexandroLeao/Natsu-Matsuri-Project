@@ -8,7 +8,46 @@ The Natsu Matsuri Project offers an intuitive and user-friendly interface, allow
 
 With this finance manager, Natsu Matsuri festival organizers can efficiently monitor financial transactions during the event, aiding in decision-making and cash flow management.
 
-## Getting Started with Create React App
+## Step by Step:
+
+### 1. Project Structure Creation:
+   - Created a folder called "public" in the project root, containing the file "favicon.ico".
+   - Created the file "index.html" in the "public" folder with basic HTML code, including links to Google Fonts and the project title.
+
+### 2. Folder Structure Creation:
+   - Created a folder called "src" in the project root.
+   - Inside the "src" folder, created the folders "components", "Form", "Grid", "GridItem", "Header", "Resume", and "ResumeItem".
+
+### 3. Component Implementation:
+   - Implemented the "Form" component with the logic for adding financial transactions.
+   - Implemented the "Grid" component to display transactions in a table format.
+   - Implemented the "GridItem" component to represent each item in the table.
+   - Implemented the "Header" component to display the application title.
+   - Implemented the "Resume" component to display the transaction summary.
+   - Implemented the "ResumeItem" component to represent each item in the summary.
+
+### 4. Component Styling:
+   - Created style files for each component using the styled-components library.
+   - Defined the styling rules according to the structure of each component.
+
+### 5. Integration of Components in the "App.js" file:
+   - Imported and used the "Header" component to display the application title.
+   - Imported and used the "Resume" component to display the transaction summary.
+   - Imported and used the "Form" component to enable adding transactions.
+   - Imported and used the "Grid" component to display transactions in a table format.
+
+### 6. Handling Transaction Data:
+   - Used the "transactionsList" state to store the financial transactions.
+   - Used the "income" state to store the total income value.
+   - Used the "expense" state to store the total expense value.
+   - Used the "total" state to store the total balance (income - expense).
+   - Used the useEffect function to update the state values based on the transactions.
+
+### 7. Storing Transactions in LocalStorage:
+   - Utilized LocalStorage to store the financial transactions.
+   - When adding, editing, or deleting a transaction, the LocalStorage is updated with the new array of transactions.
+
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
